@@ -8,5 +8,16 @@
     <!-- Strings used for fragments for navigation -->
     <string name="paikannus">Paikannus</string>
 
+    <string name="Sun_current_elevation">Auringon korkeus:</string>
+    <string name="Sun_current_azimuth">Auringon suunta:</string>
+    <string name="Sun_max_elevation_today">Aurignon maksimi korkeus:</string>
+    <string name="Time_maximun_elevation">Aurinko korkeimmillaan [hh:min]:</string>
+    <string name="Current_solar_Power">Auringon säteilyteho [W/m2]:</string>
+    <string name="Maximun_solar_Power_year">Maximi auringon säteilyteho [W/m2]:</string>
+    <string name="Maximum_solar_Power_today">Maximi auringon säteilyteho tänään [W/m2]:</string>
+    <string name="UVI_now">UVI:</string>
+    <string name="UVI_max_today">Maximi UVI:</string>
+    <string name="UVI_over_3">UVI > kolme [hh:min]:</string>
+    <string name="UVI_end_time">UVI 3 päättyy [hh:min]:</string>
 
 </resources>
