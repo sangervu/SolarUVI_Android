@@ -36,7 +36,7 @@ public class MainActivityEclipse {
 					SunPosition.sunPosition(); //alustetaan auringon koordinatit (atsimuutti ja korkeus)
 					SolarCalculations.solarCalculations(); //alustetaan auringon sijaitiin liittyv�t laskut
 					SolarCalculations.SolarPower(); //alustetaan auringon s�teilytehoon liittyv�t laskut
-					PrintSolarCalculations.print();
+					//PrintSolarCalculations.print();
 					break;
 					
 				case 2:
