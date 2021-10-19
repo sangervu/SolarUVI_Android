@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SolarUVI_Android">
         <activity
+            android:name=".CalendarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UviActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SolarPowerActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="false"
+            android:label="@string/title_activity_solar_power"
+            android:theme="@style/Theme.SolarUVI_Android.Fullscreen" />
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"

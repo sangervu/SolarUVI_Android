@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PowerView_exampleString"></declare-styleable>
+    <declare-styleable name="PowerView_exampleColor"></declare-styleable>
+    <declare-styleable name="PowerView_exampleDimension"></declare-styleable>
+    <declare-styleable name="PowerView_exampleDrawable"></declare-styleable>
+    <declare-styleable name="FullscreenAttrs">
+        <attr name="fullscreenBackgroundColor" format="color" />
+        <attr name="fullscreenTextColor" format="color" />
+    </declare-styleable>
+</resources>

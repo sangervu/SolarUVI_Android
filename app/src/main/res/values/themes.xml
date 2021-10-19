@@ -22,4 +22,17 @@
     <style name="Theme.SolarUVI_Android.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.SolarUVI_Android.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Theme.SolarUVI_Android.Fullscreen" parent="Theme.SolarUVI_Android">
+        <item name="android:actionBarStyle">
+            @style/Widget.Theme.SolarUVI_Android.ActionBar.Fullscreen
+        </item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+    </style>
+
+    <style name="ThemeOverlay.SolarUVI_Android.FullscreenContainer" parent="">
+        <item name="fullscreenBackgroundColor">@color/light_blue_600</item>
+        <item name="fullscreenTextColor">@color/light_blue_A200</item>
+    </style>
 </resources>

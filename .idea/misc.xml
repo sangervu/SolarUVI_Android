@@ -3,10 +3,27 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/GIT/SolarUVI_Android/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.37864583333333335" />
+        <entry key="..\:/GIT/SolarUVI_Android/app/src/main/res/drawable/ic_launcher_background.xml" value="0.37864583333333335" />
+        <entry key="..\:/GIT/SolarUVI_Android/app/src/main/res/layout/activity_calendar.xml" value="0.2658514492753623" />
         <entry key="..\:/GIT/SolarUVI_Android/app/src/main/res/layout/activity_main.xml" value="0.24320652173913043" />
+        <entry key="..\:/GIT/SolarUVI_Android/app/src/main/res/layout/activity_solar_power.xml" value="0.2658514492753623" />
+        <entry key="..\:/GIT/SolarUVI_Android/app/src/main/res/layout/activity_solar_power_view.xml" value="0.27943840579710144" />
+        <entry key="..\:/GIT/SolarUVI_Android/app/src/main/res/layout/activity_uvi.xml" value="0.2658514492753623" />
+        <entry key="..\:/GIT/SolarUVI_Android/app/src/main/res/layout/calendar_view.xml" value="0.19895833333333332" />
         <entry key="..\:/GIT/SolarUVI_Android/app/src/main/res/layout/content_main.xml" value="0.25" />
+        <entry key="..\:/GIT/SolarUVI_Android/app/src/main/res/layout/content_solar_power_view.xml" value="0.27943840579710144" />
         <entry key="..\:/GIT/SolarUVI_Android/app/src/main/res/layout/fragment_first.xml" value="0.24320652173913043" />
         <entry key="..\:/GIT/SolarUVI_Android/app/src/main/res/layout/fragment_second.xml" value="0.24320652173913043" />
+        <entry key="..\:/GIT/SolarUVI_Android/app/src/main/res/layout/fragment_solar_power.xml" value="0.2658514492753623" />
+        <entry key="..\:/GIT/SolarUVI_Android/app/src/main/res/layout/location_view.xml" value="0.29936594202898553" />
+        <entry key="..\:/GIT/SolarUVI_Android/app/src/main/res/layout/power_view.xml" value="0.3029891304347826" />
+        <entry key="..\:/GIT/SolarUVI_Android/app/src/main/res/layout/sample_calendar_view.xml" value="0.3029891304347826" />
+        <entry key="..\:/GIT/SolarUVI_Android/app/src/main/res/layout/sample_location_view.xml" value="0.3029891304347826" />
+        <entry key="..\:/GIT/SolarUVI_Android/app/src/main/res/layout/sample_power_view.xml" value="0.3029891304347826" />
+        <entry key="..\:/GIT/SolarUVI_Android/app/src/main/res/layout/sample_uvi_view.xml" value="0.3029891304347826" />
+        <entry key="..\:/GIT/SolarUVI_Android/app/src/main/res/layout/solar_fragment.xml" value="0.27943840579710144" />
+        <entry key="..\:/GIT/SolarUVI_Android/app/src/main/res/layout/uvi_view.xml" value="0.29936594202898553" />
         <entry key="..\:/GIT/SolarUVI_Android/app/src/main/res/menu/menu_main.xml" value="0.3625" />
       </map>
     </option>
