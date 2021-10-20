@@ -5,7 +5,6 @@
     <string name="set_location">Set location</string>
     <string name="get_location">Get location</string>
     <string name="show_calendar">Calendar</string>
-    <string name="text_calendar">Date selected</string>
 
     <!-- Strings used for fragments for navigation -->
     <string name="paikannus">Paikannus</string>
@@ -38,5 +37,7 @@
     <string name="title_activity_uvi">UviActivity</string>
     <string name="title_activity_calendar">CalendarActivity</string>
     <string name="text_calendar">Date selected</string>
+    <string name="disclaimer">Disclaimer</string>
+    <string name="show_sun">Solar Positions</string>
 
 </resources>

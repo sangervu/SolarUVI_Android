@@ -19,6 +19,11 @@
         android:title="@string/show_uvi"
         app:showAsAction="never" />
     <item
+        android:id="@+id/show_sun"
+        android:orderInCategory="100"
+        android:title="@string/show_sun"
+        app:showAsAction="never" />
+    <item
         android:id="@+id/show_power"
         android:orderInCategory="100"
         android:title="@string/show_power"
@@ -28,12 +33,12 @@
         android:orderInCategory="100"
         android:title="@string/set_location"/>
     <item
-        android:id="@+id/get_location"
-        android:orderInCategory="100"
-        android:title="@string/get_location"/>
-    <item
         android:id="@+id/show_calendar"
         android:orderInCategory="100"
         android:title="@string/show_calendar"/>
+    <item
+        android:id="@+id/show_disclaimer"
+        android:orderInCategory="100"
+        android:title="@string/disclaimer"/>
 
 </menu>
