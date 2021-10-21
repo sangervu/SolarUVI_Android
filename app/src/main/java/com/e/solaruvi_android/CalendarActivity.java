@@ -1,5 +1,6 @@
 package com.e.solaruvi_android;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
@@ -19,15 +20,25 @@ public class CalendarActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calendar);
 
-        CalendarView simpleCalendarView = (CalendarView) findViewById(R.id.calendarView); // get the reference of CalendarView
-        long selectedDate = simpleCalendarView.getDate(); // get selected date in millisecond
+        CalendarView calendarView = (CalendarView) findViewById(R.id.calendarView); // get the reference of CalendarView
+        long selectedDate = calendarView.getDate(); // get selected date in millisecond
 
         SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy");
         String dateString = formatter.format(new Date(selectedDate));
 
         TextView dataText1 = (TextView) findViewById(R.id.editTextDate);
 
-        dataText1.setText(dateString);
+        //dataText1.setText(dateString);
 
+        calendarView.setOnDateChangeListener(new CalendarView.OnDateChangeListener() {
+            @Override
+            public void onSelectedDayChange(@NonNull CalendarView view, int year, int month, int dayOfMonth) {
+
+                String date = dayOfMonth + "/" + (month +1) + "/" + year;
+
+                dataText1.setText(date);
+
+            }
+        });
     }
 }
