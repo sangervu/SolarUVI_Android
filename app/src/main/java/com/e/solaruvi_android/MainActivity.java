@@ -107,6 +107,13 @@ public class MainActivity extends AppCompatActivity {
             startActivity(showUvi);
             return true;
         }
+        if (id == R.id.set_location) {
+
+            Intent showMap = new Intent(MainActivity.this, MapsActivity.class);
+            startActivity(showMap);
+            return true;
+        }
+
 
         if (id == R.id.show_calendar) {
 
@@ -120,8 +127,6 @@ public class MainActivity extends AppCompatActivity {
             startActivity(showDisc);
             return true;
         }
-
-
 
         return super.onOptionsItemSelected(item);
     }

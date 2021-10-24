@@ -39,5 +39,6 @@
     <string name="text_calendar">Date selected</string>
     <string name="disclaimer">Disclaimer</string>
     <string name="show_sun">Solar Positions</string>
+    <string name="title_activity_maps">MapsActivity</string>
 
 </resources>
